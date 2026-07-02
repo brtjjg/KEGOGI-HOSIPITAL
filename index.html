@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kegogi Medicare Hospital</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+
+    <!-- ─── HEADER ─── -->
+    <header>
+        <div class="container header-inner">
+            <a href="#" class="logo">
+                <i class="fas fa-heartbeat"></i>
+                Kegogi <span>Medicare</span>
+            </a>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#home" class="active">Home</a>
+                <a href="#services">Services</a>
+                <a href="#doctors">Doctors</a>
+                <a href="#appointment">Appointment</a>
+                <a href="#contact">Contact</a>
+                <div class="nav-cta">
+                    <a href="#appointment" class="btn btn-primary">Book Now</a>
+                    <span class="admin-toggle" id="adminToggle">
+                        <i class="fas fa-user-shield"></i> Admin
+                    </span>
+                </div>
+            </nav>
+
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- ─── HERO ─── -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="accreditation-badge">
+                    <i class="fas fa-check-circle"></i> SIYA Social Health Authority Accredited
+                </div>
+                <h1>Welcome to <br /><span>Kegogi Medicare</span> Hospital</h1>
+                <p>Your Health, Our Priority – 24 hours a day, 7 days a week.</p>
+                <div class="hero-buttons">
+                    <a href="#appointment" class="btn btn-primary">
+                        <i class="fas fa-calendar-check"></i> Book Appointment
+                    </a>
+                    <a href="#services" class="btn btn-outline">
+                        <i class="fas fa-stethoscope"></i> Our Services
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div>
+                        <h3>24/7</h3>
+                        <p>Emergency Care</p>
+                    </div>
+                    <div>
+                        <h3>Free</h3>
+                        <p>Consultation</p>
+                    </div>
+                    <div>
+                        <h3>Accredited</h3>
+                        <p>Social Health Authority</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&h=400&fit=crop&crop=center" alt="Kegogi Medicare Hospital" />
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── SERVICES ─── -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title fade-up">
+                <h2>Our <span>Services</span></h2>
+                <p>Comprehensive healthcare tailored to your needs.</p>
+            </div>
+            <div class="service-grid">
+                <div class="service-card fade-up">
+                    <i class="fas fa-user-md"></i>
+                    <h4>Free Consultation</h4>
+                    <p>Expert advice at no cost.</p>
+                </div>
+                <div class="service-card fade-up">
+                    <i class="fas fa-scalpel"></i>
+                    <h4>Minor Surgery</h4>
+                    <p>Safe and efficient procedures.</p>
+                </div>
+                <div class="service-card fade-up">
+                    <i class="fas fa-procedures"></i>
+                    <h4>Out / In-Patient</h4>
+                    <p>Comfortable admission and day care.</p>
+                </div>
+                <div class="service-card fade-up">
+                    <i class="fas fa-ambulance"></i>
+                    <h4>Accident & Emergency</h4>
+                    <p>24/7 emergency response.</p>
+                </div>
+                <div class="service-card fade-up">
+                    <i class="fas fa-walking"></i>
+                    <h4>Physiotherapy</h4>
+                    <p>Rehabilitation and mobility care.</p>
+                </div>
+                <div class="service-card fade-up">
+                    <i class="fas fa-flask"></i>
+                    <h4>Laboratory</h4>
+                    <p>Advanced diagnostic testing.</p>
+                </div>
+                <div class="service-card fade-up">
+                    <i class="fas fa-prescription"></i>
+                    <h4>Pharmacy</h4>
+                    <p>Quality medicines on-site.</p>
+                </div>
+                <div class="service-card fade-up">
+                    <i class="fas fa-baby"></i>
+                    <h4>MCH / ANC / Maternity</h4>
+                    <p>Maternal and child health services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── DOCTORS (Team) ─── -->
+    <section class="doctors" id="doctors">
+        <div class="container">
+            <div class="section-title fade-up">
+                <h2>Our <span>Medical Team</span></h2>
+                <p>Qualified professionals committed to compassionate care.</p>
+            </div>
+            <div class="doc-grid">
+                <div class="doc-card fade-up">
+                    <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=300&fit=crop&crop=face" alt="Dr. Sarah" />
+                    <div class="doc-info">
+                        <h4>Dr. Sarah Johnson</h4>
+                        <p>General Physician</p>
+                        <div class="doc-social">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="doc-card fade-up">
+                    <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&h=300&fit=crop&crop=face" alt="Dr. Mark" />
+                    <div class="doc-info">
+                        <h4>Dr. Mark Rivera</h4>
+                        <p>Surgeon</p>
+                        <div class="doc-social">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="doc-card fade-up">
+                    <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400&h=300&fit=crop&crop=face" alt="Dr. Emily" />
+                    <div class="doc-info">
+                        <h4>Dr. Emily Chen</h4>
+                        <p>Pediatrician</p>
+                        <div class="doc-social">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="doc-card fade-up">
+                    <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=300&fit=crop&crop=face" alt="Dr. James" />
+                    <div class="doc-info">
+                        <h4>Dr. James Okafor</h4>
+                        <p>Physiotherapist</p>
+                        <div class="doc-social">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── APPOINTMENT ─── -->
+    <section class="appointment" id="appointment">
+        <div class="container">
+            <div class="section-title fade-up">
+                <h2>Book an <span>Appointment</span></h2>
+                <p>Schedule your visit in minutes – we're here for you 24/7.</p>
+            </div>
+            <div class="appt-wrapper">
+                <div class="appt-info fade-up">
+                    <h3>Why Choose <span>Kegogi Medicare</span>?</h3>
+                    <ul class="appt-features">
+                        <li><i class="fas fa-check-circle"></i> Free consultation for all patients</li>
+                        <li><i class="fas fa-check-circle"></i> 24-hour emergency & accident care</li>
+                        <li><i class="fas fa-check-circle"></i> Modern facilities & qualified staff</li>
+                        <li><i class="fas fa-check-circle"></i> SIYA Social Health Authority accredited</li>
+                    </ul>
+                </div>
+                <div class="appt-form fade-up">
+                    <h4>Request a Visit</h4>
+                    <form id="appointmentForm">
+                        <div class="form-group">
+                            <label for="patientName">Full Name</label>
+                            <input type="text" id="patientName" placeholder="e.g. John Doe" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="patientEmail">Email Address</label>
+                            <input type="email" id="patientEmail" placeholder="john@example.com" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="patientPhone">Phone Number</label>
+                            <input type="tel" id="patientPhone" placeholder="0757 501 943" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="patientService">Service</label>
+                            <select id="patientService">
+                                <option value="Free Consultation">Free Consultation</option>
+                                <option value="Minor Surgery">Minor Surgery</option>
+                                <option value="Out/In-Patient">Out/In-Patient</option>
+                                <option value="Accident & Emergency">Accident & Emergency</option>
+                                <option value="Physiotherapy">Physiotherapy</option>
+                                <option value="Laboratory">Laboratory</option>
+                                <option value="Pharmacy">Pharmacy</option>
+                                <option value="MCH/ANC/Maternity">MCH/ANC/Maternity</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="patientDate">Preferred Date</label>
+                            <input type="date" id="patientDate" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="patientMsg">Additional Notes</label>
+                            <textarea id="patientMsg" placeholder="Any special requests..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Submit Request
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── TESTIMONIALS ─── -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title fade-up">
+                <h2>What Our <span>Patients Say</span></h2>
+                <p>Real stories from people we've cared for.</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card fade-up">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"The free consultation and the care I received were outstanding. The staff treated me like family."</p>
+                    <div class="patient">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face" alt="Patient" />
+                        <div>
+                            <h5>Maria Santos</h5>
+                            <span>Maternity Patient</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card fade-up">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"I came in with an emergency and was attended to immediately. Truly a lifesaver – 24/7 service that works."</p>
+                    <div class="patient">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face" alt="Patient" />
+                        <div>
+                            <h5>Robert Chen</h5>
+                            <span>Emergency Care</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card fade-up">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"The physiotherapy sessions helped me recover quickly. Professional and caring – highly recommended."</p>
+                    <div class="patient">
+                        <img src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=100&h=100&fit=crop&crop=face" alt="Patient" />
+                        <div>
+                            <h5>Laura Kim</h5>
+                            <span>Physiotherapy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── CONTACT ─── -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title fade-up">
+                <h2>Get in <span>Touch</span></h2>
+                <p>We're here to answer your questions – reach out anytime.</p>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info fade-up">
+                    <h3>Contact <span>Information</span></h3>
+                    <p>
+                        <strong>24 Hours Service</strong> – Call us for appointments, emergencies, or general inquiries.
+                    </p>
+                    <ul class="contact-details">
+                        <li><i class="fas fa-phone-alt"></i> <strong>0757 501 943</strong> &nbsp;|&nbsp; <strong>0757 501 946</strong></li>
+                        <li><i class="fas fa-envelope"></i> info@kegogimedicare.co.ke</li>
+                        <li><i class="fas fa-clock"></i> Open 24 hours, 7 days a week</li>
+                        <li><i class="fas fa-check-circle" style="color:var(--secondary);"></i> SIYA Social Health Authority Accredited</li>
+                    </ul>
+                </div>
+                <div class="contact-form fade-up">
+                    <h4>Send a Message</h4>
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contactName">Full Name</label>
+                                <input type="text" id="contactName" placeholder="Your name" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="contactEmail">Email</label>
+                                <input type="email" id="contactEmail" placeholder="you@example.com" required />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactSubject">Subject</label>
+                            <input type="text" id="contactSubject" placeholder="How can we help?" />
+                        </div>
+                        <div class="form-group">
+                            <label for="contactMsg">Message</label>
+                            <textarea id="contactMsg" placeholder="Write your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── FOOTER ─── -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <i class="fas fa-heartbeat"></i>
+                        Kegogi <span>Medicare</span>
+                    </a>
+                    <p>Your Health, Our Priority – providing compassionate, quality care around the clock.</p>
+                </div>
+                <div class="footer-col">
+                    <h5>Quick Links</h5>
+                    <a href="#home">Home</a>
+                    <a href="#services">Services</a>
+                    <a href="#doctors">Doctors</a>
+                    <a href="#appointment">Appointment</a>
+                </div>
+                <div class="footer-col">
+                    <h5>Services</h5>
+                    <a href="#services">Free Consultation</a>
+                    <a href="#services">Minor Surgery</a>
+                    <a href="#services">Accident & Emergency</a>
+                    <a href="#services">MCH / ANC / Maternity</a>
+                </div>
+                <div class="footer-col">
+                    <h5>Contact</h5>
+                    <a href="tel:+254757501943">0757 501 943</a>
+                    <a href="tel:+254757501946">0757 501 946</a>
+                    <a href="#contact">Email Us</a>
+                    <a href="#appointment">Book Appointment</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 Kegogi Medicare Hospital. All rights reserved.</span>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ─── ADMIN DASHBOARD ─── -->
+    <div class="dashboard-overlay" id="dashboardOverlay"></div>
+    <div class="dashboard-container" id="dashboardContainer">
+        <div class="dash-header">
+            <h2><i class="fas fa-chart-line"></i> Admin Dashboard</h2>
+            <button class="dash-close" id="dashClose">&times;</button>
+        </div>
+        <div class="dash-body">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon blue"><i class="fas fa-calendar-check"></i></div>
+                    <div class="stat-content"><h4>24</h4><p>Today's Appointments</p></div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon green"><i class="fas fa-user-md"></i></div>
+                    <div class="stat-content"><h4>12</h4><p>Active Doctors</p></div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon yellow"><i class="fas fa-bed"></i></div>
+                    <div class="stat-content"><h4>30</h4><p>Available Beds</p></div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon red"><i class="fas fa-ambulance"></i></div>
+                    <div class="stat-content"><h4>5</h4><p>Emergency Cases</p></div>
+                </div>
+            </div>
+
+            <div class="dash-table-wrap">
+                <div class="table-header">
+                    <h3>Recent Appointments</h3>
+                    <span class="badge">Today</span>
+                </div>
+                <div class="table-scroll">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Patient</th>
+                                <th>Service</th>
+                                <th>Date</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>John Mwangi</td>
+                                <td>Free Consultation</td>
+                                <td>2026-07-02</td>
+                                <td><span class="status confirmed">Confirmed</span></td>
+                                <td>
+                                    <div class="action-btns">
+                                        <button class="btn btn-success btn-sm">Approve</button>
+                                        <button class="btn btn-danger btn-sm">Cancel</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Grace Akinyi</td>
+                                <td>MCH/ANC</td>
+                                <td>2026-07-02</td>
+                                <td><span class="status pending">Pending</span></td>
+                                <td>
+                                    <div class="action-btns">
+                                        <button class="btn btn-success btn-sm">Approve</button>
+                                        <button class="btn btn-danger btn-sm">Cancel</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Peter Ochieng</td>
+                                <td>Accident & Emergency</td>
+                                <td>2026-07-01</td>
+                                <td><span class="status completed">Completed</span></td>
+                                <td>
+                                    <div class="action-btns">
+                                        <button class="btn btn-success btn-sm">Approve</button>
+                                        <button class="btn btn-danger btn-sm">Cancel</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Mary Wanjiru</td>
+                                <td>Physiotherapy</td>
+                                <td>2026-07-02</td>
+                                <td><span class="status cancelled">Cancelled</span></td>
+                                <td>
+                                    <div class="action-btns">
+                                        <button class="btn btn-success btn-sm">Approve</button>
+                                        <button class="btn btn-danger btn-sm">Cancel</button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="dash-table-wrap">
+                <div class="table-header">
+                    <h3>All Patients</h3>
+                    <span class="badge">Total: 156</span>
+                </div>
+                <div class="table-scroll">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Phone</th>
+                                <th>Last Visit</th>
+                                <th>Service</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>John Mwangi</td><td>0712 345 678</td><td>2026-06-28</td><td>Free Consultation</td></tr>
+                            <tr><td>Grace Akinyi</td><td>0723 456 789</td><td>2026-06-30</td><td>MCH/ANC</td></tr>
+                            <tr><td>Peter Ochieng</td><td>0734 567 890</td><td>2026-07-01</td><td>Accident & Emergency</td></tr>
+                            <tr><td>Mary Wanjiru</td><td>0745 678 901</td><td>2026-06-25</td><td>Physiotherapy</td></tr>
+                            <tr><td>Samuel Kiprop</td><td>0756 789 012</td><td>2026-07-02</td><td>Laboratory</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ─── TOAST ─── -->
+    <div class="toast" id="toast">
+        <i class="fas fa-check-circle"></i>
+        <span id="toastMessage">Success!</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
